@@ -6,6 +6,7 @@ git clone http://github.com/realmercy/qrcode-rs
 Then, run the following command to start the server
 ```shell
 cargo build --release
+cargo run
 ```
 The server will be running on port 8080 with two endpoints
 
