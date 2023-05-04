@@ -1,12 +1,12 @@
 A small http server that generates a QR code for the given input.
 For running locally, first clone the repo using
 ```shell
-git clone http://github.com/realmercy/qrcode-rs
+git clone http://github.com/paracure/qrcode-rs
 ```
 Then, run the following command to start the server
 ```shell
 cargo build --release
-cargo run
+cargo run --release
 ```
 The server will be running on port 8080 with two endpoints
 
